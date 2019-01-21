@@ -1,0 +1,13 @@
+.provider {
+    display: flex;
+    flex-direction: column;
+}
+
+.provider__row {
+    justify-content: space-between;
+}
+
+.provider__row--top {
+    position: relative;
+    top: -25px;
+}

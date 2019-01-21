@@ -1,0 +1,98 @@
+@import './vars.scss';
+@import './fonts.scss';
+
+@import './header.scss';
+@import './section_1.scss';
+@import './section_2.scss';
+@import './section_3.scss';
+@import './section_4.scss';
+@import './section_5.scss';
+@import './section_6.scss';
+@import './section_7.scss';
+@import './section_8.scss';
+@import './section_9.scss';
+@import './section_10.scss';
+@import './section_11.scss';
+@import './section_12.scss';
+@import './footer.scss';
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+iframe{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 200px;
+    height: 57px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    // color: $white;
+    // &:hover {
+    //     color: $light-grey
+    // }
+}
+
+.list__item {
+    list-style: none;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: MullerBolt, sans-serif;
+    letter-spacing: 1.3px;
+    height: 170px;
+    width: 100%;
+    &::before,&::after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 79px;
+        height: 6px;
+        background: $yellow;
+        border: 6px solid $white;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: MullerRegular, sans-serif;
+    font-size: 18px;
+}

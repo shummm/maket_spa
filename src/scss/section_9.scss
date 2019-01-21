@@ -1,0 +1,15 @@
+.working {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.working__item {
+    width: 362px;
+    height: 316px;
+}
+
+.working__item-video {
+    width: 100%;
+    height: 100%;
+}

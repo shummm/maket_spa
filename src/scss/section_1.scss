@@ -1,0 +1,49 @@
+.make__list {
+    display: grid;
+    grid-template-columns: 555px 555px;
+    grid-template-rows: 625px 625px;
+    grid-gap: 55px 33px;
+    margin-bottom: 53px;
+}
+
+.make__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.make__item-title {
+    display: flex;
+}
+
+.make__item-number {
+    font-size: 42px;
+    color: $yellow;
+    font-family: MullerBolt, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    position: relative;
+    top: -9px;
+}
+.make__item-text {
+    font-family: MullerBolt, sans-serif;
+    color: $dark-grey;
+    font-size: 24px;
+    margin-left: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.make__desc {
+    display: flex;
+    font-family: MullerRegular, sans-serif;
+    color: $dark-grey;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 555px;
+    height: 260px;
+}
+
+.make__video {
+    margin-top: 10px;
+}

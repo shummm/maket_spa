@@ -1,0 +1,23 @@
+.footer {
+    background: $bg-footer;
+    font-family: MullerRegular, sans-serif;
+    margin-top: 50px;
+}
+
+.footer__content {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: $light-grey;
+}
+.copyright__text {
+    color: $white;
+}
+
+.feedback__footer {
+    font-size: 26px;
+}

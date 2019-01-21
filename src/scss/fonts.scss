@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "MullerMedium";
+	src: url('../fonts/muller-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/muller-medium-webfont.woff') format('woff'),
+		 url('../fonts/muller-medium-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MullerBold";
+    src: url('../fonts/muller-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muller-bold-webfont.woff') format('woff'),
+         url('../fonts/muller-bold-webfont.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MullerRegular";
+    src: url('../fonts/muller-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muller-regular-webfont.woff') format('woff'),
+         url('../fonts/muller-regular-webfont.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+	src:url('../fonts/montserrat.woff2') format('woff2'), 
+		url('../fonts/montserrat.woff') format('woff'), 
+		url('../fonts/montserrat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+	src:url('../fonts/montserratbold.woff2') format('woff2'), 
+		url('../fonts/montserratbold.woff') format('woff'), 
+		url('../fonts/montserratbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+

@@ -1,0 +1,111 @@
+.contacts__bg {
+    height: 448px;
+    background: $yellow;
+    background: linear-gradient(to right, $yellow 50%, $white 50%);
+    margin-top: -10px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 322px;
+}
+
+.contacts__about {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    height: 448px;
+}
+
+.form__title {
+    font-family: MullerBold, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.form__input {
+    width: 331px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-family: MullerRegular, sans-serif;
+    font-size: 16px;
+    padding: 20px 20px 20px 45px;
+    &::placeholder {
+        color: #000000;
+        padding-left: 20px;
+    }
+}
+
+.form__input-name {
+    background-image: url(../images/name-copy.png);
+    background-position: 23px 14px;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.form__input-phone {
+    background-image: url(../images/phone-copy.png);
+    background-position: 26px 16px;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.about__title {
+    font-family: MullerBold, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.about__text {
+    font-family: MullerRegular, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.social-group {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: MullerRegular, sans-serif;
+    font-size: 18px;
+}
+
+.button--black {
+    background: #000000;
+    color: $white;
+}
+
+.button__paper-icon {
+    margin-left: 15px;
+}

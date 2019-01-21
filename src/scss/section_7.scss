@@ -1,0 +1,71 @@
+.client-fb {
+    position: relative;
+    margin-top: -15px;
+}
+
+.client-fb__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-fb__name {
+    font-family: MullerBold, sans-serif;
+    font-weight: bold;
+}
+
+.client-fb__date {
+    color: #5d5d5d;
+    font-family: MullerRegular, sans-serif;
+}
+
+.client-fb__text {
+    font-family: MullerRegular, sans-serif;
+    margin-top: 20px;
+}
+
+.client-fb__item {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 55px;
+    width: 555px;
+    height: 318px;
+    // border: 1px solid #2c2c2d;
+    box-shadow: 3px 3px 46px rgba(44, 44, 45, .15);
+}
+
+.client__move {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: $yellow;
+}
+
+.client__move-prev {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client__move-prev_icon {
+    position: relative;
+    left: -2px;
+}
+
+.client__move-next {
+    top: 50%;
+    right: 1px;
+    transform: translate(50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client__move-next_icon {
+    transform: rotate(180deg);
+    position: relative;
+    left: 2px;
+}
